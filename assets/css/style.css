@@ -1,0 +1,163 @@
+/* Reset CSS*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Background Color for body unless otherwise specified in the selector*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*All text will have a font-size of 16px unless otherwise specified in the selector*/ 
+p {
+    font-size: 16px;
+}
+
+/*Header element*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*Horiseon in upper left of the page*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    float: left
+}
+
+/*Makes "seo" in Horiseon a light gray color*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*Nav Style*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*Auto adjusts the header element so nav links will not lay over Digital Marketing Meeting image*/ 
+.clearfix {
+    overflow:auto;
+}
+
+/*Nav list will not have any specifed bullet points*/
+nav ul {
+    list-style-type: none;
+
+}
+
+/*Nav list display*/
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*Nav list text color*/
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Digital Marketing Meeting image*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Main section content is 75% of the web page*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*Style for articles within the main section content*/
+.search-engine-optimization, .online-reputation-management, .social-media-marketing  {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Heading for article*/
+.content article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Image size for photos within the article*/
+.content article img {
+    max-height: 200px;
+}
+
+/*Images with this class will be on the left side of the adjacent text*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*Images with this class will be on the left side of the adjacent text*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Aside element style*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    margin-bottom: 32px;
+    color: #ffffff;  
+}
+
+/*Heading style for aside*/
+.benefit-lead, .benefit-brand, .benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Text style for aside*/
+.benefit-lead, .benefit-brand, .benefit-cost p {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Aside Images display and size*/
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Footer style*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
